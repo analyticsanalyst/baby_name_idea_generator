@@ -10,7 +10,7 @@ ui <- fluidPage(
                p("Make input selections below then click 'Get Names Ideas'"),
                HTML("<p><a href='https://cran.r-project.org/web/packages/babynames/babynames.pdf'>Data source: R babynames package which gathers data from US SSA</a></p>"),
                p("Author: Brian Moore (@analyticsanalyst)"),
-               HTML("<p><a href='https://github.com/analyticsanalyst'>Code on Github</a></p>"),
+               HTML("<p><a href='https://github.com/analyticsanalyst/baby_name_idea_generator'>Code on Github</a></p>"),
                p(""),
                selectInput("sex", "Gender", choices = c("F", "M"), selected = "F"),
                selectInput("year_filter", "Select names from what year?",
